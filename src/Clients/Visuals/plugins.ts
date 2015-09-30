@@ -301,6 +301,11 @@ module powerbi.visuals.plugins {
         create: () => new samples.AsterPlot()
     };
 
+    export var ggPlot2: IVisualPlugin = {
+        name: 'ggPlot2',
+        capabilities: samples.GgPlot2.capabilities,
+        create: () => new samples.GgPlot2()
+    };
     export var owlGauge: IVisualPlugin = {
         name: 'owlGauge',
         watermarkKey: 'gauge',

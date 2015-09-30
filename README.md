@@ -1,3 +1,18 @@
+# Custom Power BI Visuals
+	Create a custom visualization to integrate with ggplot2 graphics
+	This can be useful integrating descriptive analytics of PowerBI with statistical analysis, e.g.  Azure Machine Learning web services
+	Custom visualization is located within  src/Client/Visuals/visuals/sampes/ggPlot2.ts
+	The approach is built upon various tips given at www.r-bloggers.com
+	e.g. The visual currently uses Rook web server running as an R script for ggplot2 graph generation
+
+	http://www.r-bloggers.com/a-simple-web-application-using-rook/
+	and
+	http://jeffreyhorner.tumblr.com/post/33814488298/deploy-rook-apps-part-ii
+	And uses gridSVG tips for ggplot2 to SVG conversion
+	http://www.r-bloggers.com/ggplot2-meet-d3/
+
+## Author: Syed Ahmed
+     
 # Microsoft Power BI visuals
 
 The Microsoft Power BI visuals project provides high quality data visualizations that you can use to extend [Power BI](https://powerbi.microsoft.com/).  The project contains over 20 visualization types, the framework to run them, and the testing infrastructure that enables you to build high quality visualizations.  The framework provides all the interfaces you need to integrate fully with Power BI's selection, filtering, and other UI experiences.  The code is written in [TypeScript](http://www.typescriptlang.org/) so it's easier to build and debug. Everything compiles down to JavaScript and runs in modern web browsers.  The visuals are built using [D3](http://d3js.org/) but you can use your favorite technology like [WebGL](https://en.wikipedia.org/wiki/WebGL), [Canvas](https://en.wikipedia.org/wiki/Canvas_element), or [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics). This gives you everything you need to build custom visualizations for Power BI.

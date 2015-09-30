@@ -141,6 +141,7 @@
 /// <reference path="cartesian/columnChartStacked.ts"/>
 /// <reference path="visuals/samples/helloIVisual.ts"/>
 /// <reference path="visuals/samples/asterPlot.ts"/>
+/// <reference path="visuals/samples/ggPlot2.ts"/>
 
 /// <reference path="cartesian/comboChart.ts"/>
 
