@@ -1,15 +1,22 @@
 # Custom Power BI Visuals
-	Create a custom visualization to integrate with ggplot2 graphics
-	This can be useful integrating descriptive analytics of PowerBI with statistical analysis, e.g.  Azure Machine Learning web services
-	Custom visualization is located within  src/Client/Visuals/visuals/sampes/ggPlot2.ts
-	The approach is built upon various tips given at www.r-bloggers.com
+	Create a custom visualization to integrate with ggplot2 graphics.
+	ggplot2 graphics is an excellent tool for generating graphs within R language, it is based on Grammar of Graphics principles presented by Leland Wilkinson.
+
+	This visualization can be useful in integrating descriptive analytics of PowerBI with statistical analysis, e.g.  Azure Machine Learning web services
+	
+	Custom visualization module source is located within  src/Client/Visuals/visuals/sampes/ggPlot2.ts
+	The approach is built upon various R tips available at www.r-bloggers.com
 	e.g. The visual currently uses Rook web server running as an R script for ggplot2 graph generation
 
 	http://www.r-bloggers.com/a-simple-web-application-using-rook/
 	and
 	http://jeffreyhorner.tumblr.com/post/33814488298/deploy-rook-apps-part-ii
-	And uses gridSVG tips for ggplot2 to SVG conversion
+	
+	I also wasinspired by a gridSVG tips for ggplot2 to SVG conversion tips
 	http://www.r-bloggers.com/ggplot2-meet-d3/
+
+	To run an R instance as a web server look at the example server script used by this visualization at
+	https://github.com/s-ifti/PowerBI-ggplot2-rook
 
 ## Author: Syed Ahmed
      
